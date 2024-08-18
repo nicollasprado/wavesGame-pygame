@@ -4,11 +4,11 @@ class mainAttack(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
         self.sprites = []
-        self.sprites.append(pygame.image.load('sprites/beam5.png'))
-        self.sprites.append(pygame.image.load('sprites/beam4.png'))
-        self.sprites.append(pygame.image.load('sprites/beam3.png'))
-        self.sprites.append(pygame.image.load('sprites/beam2.png'))
-        self.sprites.append(pygame.image.load('sprites/beam1.png'))
+        self.sprites.append(pygame.image.load('jogo/sprites/beam5.png'))
+        self.sprites.append(pygame.image.load('jogo/sprites/beam4.png'))
+        self.sprites.append(pygame.image.load('jogo/sprites/beam3.png'))
+        self.sprites.append(pygame.image.load('jogo/sprites/beam2.png'))
+        self.sprites.append(pygame.image.load('jogo/sprites/beam1.png'))
         self.actual = 0
         self.image = self.sprites[int(self.actual)]
         #self.image = pygame.transform.scale(self.image)

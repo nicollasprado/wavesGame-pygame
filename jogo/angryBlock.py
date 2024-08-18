@@ -4,9 +4,9 @@ class AngryBlock(pygame.sprite.Sprite):
     def __init__(self):
         pygame.sprite.Sprite.__init__(self)
         self.sprites = []
-        self.sprites.append(pygame.image.load('sprites/inimigo.png'))
-        self.sprites.append(pygame.image.load('sprites/angryBlock-damaged1.png'))
-        self.sprites.append(pygame.image.load('sprites/angryBlock-damaged2.png'))
+        self.sprites.append(pygame.image.load('jogo/sprites/inimigo.png'))
+        self.sprites.append(pygame.image.load('jogo/sprites/angryBlock-damaged1.png'))
+        self.sprites.append(pygame.image.load('jogo/sprites/angryBlock-damaged2.png'))
         self.actual = 0
         self.image = self.sprites[int(self.actual)]
         self.image = pygame.transform.scale(self.image, (32*2, 32*2))

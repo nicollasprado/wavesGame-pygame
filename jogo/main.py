@@ -1,4 +1,4 @@
-import pygame, angryBlock, playerC, mainAttack, firstRoomConfigs, createEnemiesLifesBars, constants
+import pygame, playerC, mainAttack, firstRoomConfigs, createEnemiesLifesBars, constants
 
 pygame.init()
 
@@ -72,7 +72,7 @@ while running:
     createAim(cursor[0], cursor[1])
 
     screen.blit(lifeUI_formatted, (1090, 0))
-    screen.blit(pointsUI_formatted, (1060, 50))
+    screen.blit(pointsUI_formatted, (1050, 50))
     pygame.display.flip()
 
 
