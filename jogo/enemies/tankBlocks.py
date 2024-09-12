@@ -13,9 +13,12 @@ class TankBlocks(pygame.sprite.Sprite):
         self.playerX = 0
         self.playerY = 0
 
+        self.enemyType = 'TankBlock'
         self.life = 10 * constants.chosenDifficulty
+        self.staticLife = 10 * constants.chosenDifficulty
         self.strength = 0.5 * constants.chosenDifficulty
         self.speed = 0.8
+        self.staticSpeed = 0.8
         self.oldMovementTick = 0
         self.walkTimer = 0
 

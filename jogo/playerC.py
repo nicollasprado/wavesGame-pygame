@@ -17,6 +17,7 @@ class Player(pygame.sprite.Sprite):
 
         self.name = 'jogador'
         self.life = 100
+        self.staticLife = 100
         self.strength = 1
         self.speed = 1
         self.lastDamageTick = 0

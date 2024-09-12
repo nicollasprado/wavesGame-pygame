@@ -5,3 +5,5 @@ difficulty = {
 }
 
 chosenDifficulty = 1
+screenSize = (1280, 720)
+gameName = "Block Survival"

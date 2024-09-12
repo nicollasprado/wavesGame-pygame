@@ -15,9 +15,12 @@ class AngryBlock(pygame.sprite.Sprite):
         self.playerX = 0
         self.playerY = 0
 
+        self.enemyType = 'AngryBlock'
         self.life = 5 * constants.chosenDifficulty
+        self.staticLife = 5 * constants.chosenDifficulty
         self.strength = 1 * constants.chosenDifficulty
         self.speed = 1.5
+        self.staticSpeed = 1.5
         self.oldMovementTick = 0
         self.walkTimer = 0
 
